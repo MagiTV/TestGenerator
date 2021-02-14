@@ -1,0 +1,71 @@
+body {
+    background-image: url("12.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #1c4d44;
+    border-bottom: 3px dotted #1c4d44;
+}
+
+h3 {
+    color: #1c4d44;
+}
+
+#myTest {
+    display: block;
+    width: 100%;
+    background-color: #cce493;
+    margin-bottom: 1%;
+}
+
+.result {
+    margin: auto;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+    background-color: #376c4f;
+    color: #defad1;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.correct {
+    color: rgb(147, 75, 214);
+    font-weight: bold;
+    padding-left: 23px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.wrong,
+.more {
+    color: orangered;
+    font-weight: bold;
+    padding-left: 23px;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type='submit'] {
+    font-size: 24px;
+    background-color: #b1cb25;
+    border: none;
+    color: white;
+    padding: 7.5px 22.5px;
+    text-align: center;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 1%;
+    display: inline-block;
+    border: 5px solid #1c4d44;
+}
+
+#buttons {
+    width: 100%;
+    text-align: center;
+}

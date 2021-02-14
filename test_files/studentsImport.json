@@ -1,0 +1,28 @@
+{
+    "students": [
+        {
+            "faculty_number": "81493",
+            "student_name": "Станислав Стефанов", 
+            "faculty":"ФМИ",
+            "major":"КН(рб) - 2017",
+            "course":"4",
+            "group_number":"5"
+        },
+        {
+            "faculty_number": "81646",
+            "student_name": "Християна Малинова", 
+            "faculty":"ФМИ",
+            "major":"КН(рб) - 2017",
+            "course":"4",
+            "group_number":"7"
+        },
+        {
+            "faculty_number": "81640",
+            "student_name": "Маргарита Велкушанова", 
+            "faculty":"ФМИ",
+            "major":"КН(рб) - 2017",
+            "course":"4",
+            "group_number":"7"
+        }
+    ]
+}

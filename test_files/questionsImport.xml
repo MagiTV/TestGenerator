@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<note>
+	<question>
+		<timestamp>3</timestamp>
+		<faculty_number>81640</faculty_number>
+		<question_number>1</question_number>
+		<target>check prior knoledge</target>
+		<question_text>easy question</question_text>
+		<answer_1>wrong1</answer_1>
+		<answer_2>correct</answer_2>
+		<answer_3>wrong2</answer_3>
+		<answer_4>2rong3</answer_4>
+		<correct_answer>2</correct_answer>
+		<difficulty>1</difficulty>
+		<response_correct>congratulations</response_correct>
+		<response_wrong>try again</response_wrong>
+		<more_info>check wikipedia</more_info>
+		<question_type>before_presentation</question_type>
+	</question>
+	<question>
+		<timestamp>4</timestamp>
+		<faculty_number>81646</faculty_number>
+		<question_number>3</question_number>
+		<target>check knowledge</target>
+		<question_text>question</question_text>
+		<answer_1>aaa</answer_1>
+		<answer_2>bbb</answer_2>
+		<answer_3>ccc</answer_3>
+		<answer_4>ddd</answer_4>
+		<correct_answer>2</correct_answer>
+		<difficulty>4</difficulty>
+		<response_correct>super</response_correct>
+		<response_wrong>please try again later</response_wrong>
+		<more_info>smth</more_info>
+		<question_type>before_presentation</question_type>
+	</question>
+	<question>
+		<timestamp>7</timestamp>
+		<faculty_number>81493</faculty_number>
+		<question_number>2</question_number>
+		<target>what is target</target>
+		<question_text>super hard question</question_text>
+		<answer_1>sss</answer_1>
+		<answer_2>ddd</answer_2>
+		<answer_3>fff</answer_3>
+		<answer_4>ggg</answer_4>
+		<correct_answer>2</correct_answer>
+		<difficulty>3</difficulty>
+		<response_correct>yaaa</response_correct>
+		<response_wrong>nooo</response_wrong>
+		<more_info>inffo</more_info>
+		<question_type>after_presentation</question_type>
+	</question>
+</note>

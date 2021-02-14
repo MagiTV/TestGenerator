@@ -1,0 +1,111 @@
+<html>
+
+<head>
+    <title>Администраторски панел</title>
+    <meta charset="utf-8">
+    <link href="css/configuration.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <table>
+        <tr>
+            <!-- колона1  -->
+            <th id="cofigurationSection">
+
+                <h1>Конфигурация на системата:</h1>
+                <form id="configuration" action="import_handler.php" method="POST" enctype="multipart/form-data">
+                    <section class="category">
+                        <h3>Избери файл със студенти:</h3>
+                        <section class="fileInput">
+                            <label class="text" for="studentsCSV">CSV:</label>
+                            <input type="file" id="studentsCSV" name="studentsCSV" accept=".csv" />
+                            <a href="test_files/studentsImport.csv" class="link" download>Виж примерен файл</a>
+                        </section>
+
+                        <section class="fileInput">
+                            <label class="text" for="studentsXML">XML:</label>
+                            <input type="file" id="studentsXML" name="studentsXML" accept=".xml" />
+                            <a href="test_files/studentsImport.xml" class="link" download>Виж примерен файл</a>
+                        </section>
+
+                        <section class="fileInput">
+                            <label class="text" for="studentsJSON">JSON:</label>
+                            <input type="file" id="studentsJSON" name="studentsJSON" accept=".json" />
+                            <a href="test_files/studentsImport.json" class="link" download>Виж примерен файл</a>
+                        </section>
+                    </section>
+
+                    <section class="category">
+                        <h3>Избери файл с въпроси:</h3>
+                        <section class="fileInput">
+                            <label class="text" for="questionsCSV">CSV:</label>
+                            <input type="file" id="questionsCSV" name="questionsCSV" accept=".csv" />
+                            <a href="test_files/questionsImport.csv" class="link" download>Виж примерен файл</a>
+                        </section>
+
+                        <section class="fileInput">
+                            <label class="text" for="questionsXML">XML:</label>
+                            <input type="file" id="questionsXML" name="questionsXML" accept=".xml" />
+                            <a href="test_files/questionsImport.xml" class="link" download>Виж примерен файл</a>
+                        </section>
+
+                        <section class="fileInput">
+                            <label class="text" for="questionsJSON">JSON:</label>
+                            <input type="file" id="questionsJSON" name="questionsJSON" accept=".json" />
+                            <a href="test_files/questionsImport.json" class="link" download>Виж примерен файл</a>
+                        </section>
+                    </section>
+
+                    <section class="category">
+                        <h3>Избери файл с реферати:</h3>
+                        <section class="fileInput">
+                            <label class="text" for="referatTableCSV">CSV:</label>
+                            <input type="file" id="referatTableCSV" name="referatTableCSV" accept=".csv" />
+                            <a href="test_files/referatsImport.csv" class="link" download>Виж примерен файл</a>
+                        </section>
+
+                        <section class="fileInput">
+                            <label class="text" for="referatTableXML">XML:</label>
+                            <input type="file" id="referatTableXML" name="referatTableXML" accept=".xml" />
+                            <a href="test_files/referatsImport.xml" class="link" download>Виж примерен файл</a>
+                        </section>
+
+                        <section class="fileInput">
+                            <label class="text" for="referatTableJSON">JSON:</label>
+                            <input type="file" id="referatTableJSON" name="referatTableJSON" accept=".json" />
+                            <a href="test_files/referatsImport.json" class="link" download>Виж примерен файл</a>
+                        </section>
+                    </section>
+
+                    <button id="addFiles" type="submit">Качи</button>
+                </form>
+            </th>
+
+            <!-- колона2  -->
+            <th id="buttonsSection">
+                <form method="GET" id="exportTasksForm" action="export_handler.php">
+                    <button id="exportData" type="submit">Свали файлове</button>
+                </form>
+
+                <form action="statistics.html ">
+                    <input type="submit" value="Резултати от тестове" />
+                </form>
+
+                <form action="ratings.html ">
+                    <input type="submit" value="Рейтинг на реферати" />
+                </form>
+
+                <form action="presence.html">
+                    <input type="submit" value="Присъствие на презентации" />
+                </form>
+
+                <form id="logoutForm" action="logout.php" method="POST">
+                    <button class="panelButton" id="logout" type="submit">Изход</button>
+                </form>
+            </th>
+        </tr>
+    </table>
+</body>
+
+</html>

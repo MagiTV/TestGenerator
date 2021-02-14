@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Статистики</title>
+    <script defer src="statistics.js"></script>
+    <link href="css/statistics.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <!-- колона1  -->
+            <th>
+                <button onclick="statisticsByTopic()">Статистика по теми</button>
+
+            </th>
+            <!-- колона2  -->
+            <th>
+                <button onclick="statisticsByFN()">Статистика по ФН</button>
+
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <section id="byTopic" hidden></section>
+
+            </th>
+            <th>
+
+                <section id="byFN" hidden></section>
+            </th>
+        </tr>
+    </table>
+    <section id="buttons">
+        <form id="goТоConfiguration" action="configuration.html">
+            <input type="submit" value="Назад" />
+        </form>
+
+    </section>
+
+
+
+
+</body>
+
+</html>

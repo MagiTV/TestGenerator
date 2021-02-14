@@ -1,0 +1,56 @@
+body {
+    background-image: url("12.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+legend {
+    color: #376c4f;
+    font-size: 24px;
+}
+
+fieldset {
+    margin: auto;
+    position: relative;
+    text-align: center;
+    border: 5px solid #376c4f;
+    margin-bottom: 1%;
+    background-color: #eef4dc;
+}
+
+label {
+    font-weight: bold;
+    font-size: 20px;
+    color: #376c4f;
+    text-align: center;
+    margin: auto;
+}
+
+input[type='submit'] {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    background-color: #376c4f;
+    border: 3px solid #376c4f;
+    color: white;
+    padding: 5px 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+select,
+input[type='number'],
+input[type='text'] {
+    font-size: 16px;
+    padding: 5px 15px;
+    border: 3px solid #376c4f;
+}
+
+#errors {
+    padding-top: 15px;
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: block;
+}

@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<note>
+    <referat>
+        <tenant_id>w15</tenant_id>
+        <faculty_number>81646 </faculty_number>
+        <topic_since>2018_19_new_12ed</topic_since>
+        <topic>101</topic>
+        <topic_name>Уязвимости в уеб приложения - дефектна аутентикация (OWASP-A2). Примери.</topic_name>
+        <example_resources>Application functions relate</example_resources>
+        <your_resources>https://auth0.com/blog https://doubleoctopus.com/security-wiki/threats-and-tools/</your_resources>
+        <agenda>1. Какво представлява дефектната аутентикация? 2. На кои два основни дяла се дели? 3. Как да се предпазим от атаки? 4. Заключение и източници</agenda>
+        <examples_agenda>В какво се състои credential stuffing атаката по стъпки. Примери за мултифактор аутентикация</examples_agenda>
+        <keywords>OWASP, Broken Authentication, Login credentials, Session IDs, Credential Stuffing, Session hijacking</keywords>
+    </referat>
+    <referat>
+        <tenant_id>w15</tenant_id>
+        <faculty_number>81493</faculty_number>
+        <topic_since>2020_new_14ed</topic_since>
+        <topic>123</topic>
+        <topic_name>Configure SSL on XAMPP</topic_name>
+        <example_resources>https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69</example_resources>
+        <your_resources>https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69</your_resources>
+        <agenda>1. Какво е SSL? 2. Какво е SSL сертификат и как работи той? 3. Създаване на сертификат с помощта на ЛетсЕнкрипт 4. Конфигуриране на SSL за XAMPP</agenda>
+        <examples_agenda>В какво се състои credential stuffing атаката по стъпки. Примери за мултифактор аутентикация</examples_agenda>
+        <keywords>SSL, CSR, XAMPP, сетрификат, публичен ключ, частен ключ, дигитален подпис, криптиране, сертифициращ орган, браузър, коренов сертификат, верига сертификати</keywords>
+    </referat>
+    <referat>
+        <tenant_id>w15</tenant_id>
+        <faculty_number>81640</faculty_number>
+        <topic_since>w15</topic_since>
+        <topic>147</topic>
+        <topic_name>Добри практики в PHP. Примери</topic_name>
+        <example_resources>https://phptherightway.com/</example_resources>
+        <your_resources>https://phptherightway.com/</your_resources>
+        <agenda>1. Използване на най-новата версия 2. Стил на кода </agenda>
+        <examples_agenda>php, clean code, code style,</examples_agenda>
+        <keywords>OWASP, Broken Authentication, Login credentials</keywords>
+    </referat>
+</note>

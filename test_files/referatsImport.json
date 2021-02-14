@@ -1,0 +1,40 @@
+{
+    "referats": [
+        {
+            "tenant_id": "w15",
+            "faculty_number": "81646",
+            "topic_since": "2018_19_new_12ed",
+            "topic": "101",
+            "topic_name": "Уязвимости в уеб приложения - дефектна аутентикация (OWASP-A2).",
+            "example_resources(separated with ,)": "Application functions related to authentication",
+            "your_resources (links)": "https://usersnap.com/blog/registration-forms/",
+            "agenda": "1. Какво представлява дефектната аутентикация?",
+            "examples_agenda": "В какво се състои credential stuffing ",
+            "keywords": "OWASP, Broken Authentication, Login credentials,"
+        },
+        {
+            "tenant_id": "w15",
+            "faculty_number": "81493",
+            "topic_since": "2020_new_14ed",
+            "topic": "123",
+            "topic_name": "Configure SSL on XAMPP",
+            "example_resources(separated with ,)": "https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69",
+            "your_resources (links)": "https://gist.github.com/nguyenanhtu/33aa7ffb6c36fdc110ea8624eeb51e69",
+            "agenda": "1. Какво е SSL? 2. Какво е SSL сертификат и как работи той? 3. Създаване на сертификат с помощта на ЛетсЕнкрипт 4. Конфигуриране на SSL за XAMPP",
+            "examples_agenda": "В какво се състои credential stuffing атаката по стъпки. Примери за мултифактор аутентикация",
+            "keywords": "SSL, CSR, XAMPP, сетрификат, публичен ключ, частен ключ, дигитален подпис, криптиране, сертифициращ орган, браузър, коренов сертификат, верига сертификати"
+        },
+        {
+            "tenant_id": "w15",
+            "faculty_number": "81640",
+            "topic_since": "w15",
+            "topic": "147",
+            "topic_name": "Добри практики в PHP. Примери.",
+            "example_resources(separated with ,)": "https://phptherightway.com/, https://phpbestpractices.org/",
+            "your_resources (links)": "https://phptherightway.com/, https://phpbestpractices.org/",
+            "agenda": "1. Използване на най-новата версия 2. Стил на кода 3. Използване на различни (естествени) езици 4. Инжектиране на зависимости 5. Бази данни 6. Сигурност",
+            "examples_agenda": "php, clean code, code style, utf-8, solid, dependency injections, PDO, gettext, password_hash",
+            "keywords": "OWASP, Broken Authentication, Login credentials, Session IDs, Credential Stuffing, Session hijacking"
+        }
+    ]
+}

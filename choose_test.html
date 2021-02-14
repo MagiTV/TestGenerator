@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Избери тест</title>
+    <script defer src="choose_test.js"></script>
+    <link href="css/choose_test.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>Избери тест</h2>
+            </legend>
+            <label for="facultyNumber">Факултетен номер:
+                <input id="facultyNumber" name="facultyNumber" type="text" required />
+            </label>
+
+            <label for="topicNumber">Номер на тема:
+                <input id="topicNumber" name="topicNumber" type="number" required />
+            </label>
+
+            <label for="testType">Тип:
+                <select id="testType" name="testType">
+                    <option value="before_presentation">преди презентацията</option>
+                    <option value="during_presentation">по време на презентация</option>
+                    <option value="after_presentation">след презентацията</option>
+                </select>
+            </label>
+            <input id="createTest" type="submit" value="Направи тест" />
+            <div id="errors"></div>
+        </fieldset>
+    </form>
+    <form action="index.html">
+        <input type="submit" value="Назад" />
+    </form>
+</body>
+
+</html>

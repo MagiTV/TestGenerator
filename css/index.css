@@ -1,0 +1,40 @@
+body {
+    background-image: url("1.jpg");
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+}
+
+.rectangle {
+    width: 100%;
+    height: 20%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background-color: #eaedec;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    border: 10px solid #505358;
+}
+
+.indexButton {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    background-color: #b1cb25;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#studentButton {
+    margin-right: 0.5%;
+}
+
+#rateTopic {
+    margin-left: 0.5%;
+}

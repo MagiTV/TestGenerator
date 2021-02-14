@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<note>
+    <student>
+        <faculty_number>81493</faculty_number>
+        <student_name>Станислав Светлинов Стефанов</student_name>
+        <faculty>ФМИ</faculty>
+        <major>КН(рб) - 2017</major>
+        <course>4</course>
+        <group_number>5</group_number>
+    </student>
+    <student>
+        <faculty_number>81646</faculty_number>
+        <student_name>Християна Петкова Малинова</student_name>
+        <faculty>ФМИ</faculty>
+        <major>КН(рб) - 2017</major>
+        <course>4</course>
+        <group_number>7</group_number>
+    </student>
+    <student>
+        <faculty_number>81640</faculty_number>
+        <student_name>Маргарита Тодорова Велкушанова</student_name>
+        <faculty>ФМИ</faculty>
+        <major>КН(рб) - 2017</major>
+        <course>4</course>
+        <group_number>7</group_number>
+    </student>
+</note>

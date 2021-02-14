@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Оцени реферат</title>
+    <script defer src="rate.js"></script>
+    <link href="css/rate.css" type="text/css" rel="stylesheet">
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h2>Оцени тема</h2>
+            </legend>
+
+            <label for="topicNumber">Номер на тема:
+                <input id="topicNumber" name="topicNumber" type="number" required />
+            </label>
+
+            <label for="rating">Рейтинг:
+                <select id="rating" name="rating">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </label>
+
+            <input id="rateReferat" type="submit" value="Оцени" />
+
+            <p id="errors"></p>
+        </fieldset>
+    </form>
+
+    <form action="index.html">
+        <input id="createTest" type="submit" value="Назад" />
+    </form>
+</body>
+
+</html>

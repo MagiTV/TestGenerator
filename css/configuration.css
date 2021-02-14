@@ -1,0 +1,83 @@
+    body {
+        background-image: url("12.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    table {
+        border-top: 3px solid #376c4f;
+        border-bottom: 3px solid #376c4f;
+        margin: auto;
+    }
+    
+    h1,
+    h3 {
+        color: #376c4f;
+        text-align: left;
+    }
+    
+    h3 {
+        text-decoration: underline;
+    }
+    
+    .link {
+        float: right;
+        color: #0a282a;
+    }
+    
+    a:hover {
+        color: orangered;
+    }
+    
+    label {
+        color: #376c4f;
+        font-size: 18px;
+    }
+    
+    input[type='file'] {
+        font-size: 16px;
+    }
+    
+    button[type='submit'],
+    input[type='submit'] {
+        font-size: 20px;
+        background-color: #376c4f;
+        border: none;
+        color: white;
+        padding: 7.5px 22.5px;
+        text-align: center;
+        font-weight: bold;
+        margin-bottom: 2%;
+    }
+    
+    .fileInput {
+        text-align: left;
+    }
+    
+    #cofigurationSection {
+        width: 50%;
+    }
+    
+    #buttonsSection {
+        width: 50%;
+        text-align: center;
+    }
+    
+    .category {
+        margin-bottom: 2%;
+    }
+    
+    #logoutForm {
+        margin-top: 5%;
+    }
+    
+    #logout {
+        border-radius: 10px;
+        padding: 30px;
+    }
+    
+    #addFiles {
+        margin-top: 2%;
+        float: right;
+    }
